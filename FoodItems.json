@@ -1,0 +1,158 @@
+[
+  {
+    "CategoryName": "Pizza",
+    "name": "Margherita Pizza",
+    "img": "https://images.unsplash.com/photo-1601924582975-7e1d1b0e0d63",
+    "options": [
+      {
+        "small": "130",
+        "medium": "190",
+        "full": "230"
+      }
+    ],
+    "description": "Classic cheese pizza with tomato sauce"
+  },
+  {
+    "CategoryName": "Pizza",
+    "name": "Farmhouse Pizza",
+    "img": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+    "options": [
+      {
+        "small": "160",
+        "medium": "220",
+        "full": "280"
+      }
+    ],
+    "description": "Loaded with capsicum, onions, tomatoes, and mushrooms"
+  },
+  {
+    "CategoryName": "Burger",
+    "name": "Veg Cheese Burger",
+    "img": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+    "options": [
+      {
+        "small": "80",
+        "medium": "110",
+        "full": "150"
+      }
+    ],
+    "description": "Cheesy veg patty burger with fresh vegetables"
+  },
+  {
+    "CategoryName": "Beverages",
+    "name": "Cold Coffee",
+    "img": "https://images.unsplash.com/photo-1551024601-bec78aea704b",
+    "options": [
+      {
+        "small": "70",
+        "medium": "90",
+        "full": "110"
+      }
+    ],
+    "description": "Iced creamy cold coffee"
+  },
+  {
+    "CategoryName": "South Indian",
+    "name": "Masala Dosa",
+    "img": "https://images.unsplash.com/photo-1626082927382-3dba7ddc7e0e",
+    "options": [
+      {
+        "small": "60",
+        "medium": "80",
+        "full": "110"
+      }
+    ],
+    "description": "Crispy dosa filled with spiced potato masala"
+  },
+  {
+    "CategoryName": "South Indian",
+    "name": "Idli Sambhar",
+    "img": "https://images.unsplash.com/photo-1625398407794-15c93dffa50e",
+    "options": [
+      {
+        "small": "40",
+        "medium": "50",
+        "full": "70"
+      }
+    ],
+    "description": "Soft steamed idlis served with sambar and chutney"
+  },
+  {
+    "CategoryName": "Snacks",
+    "name": "French Fries",
+    "img": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5",
+    "options": [
+      {
+        "small": "50",
+        "medium": "70",
+        "full": "100"
+      }
+    ],
+    "description": "Golden crispy potato fries"
+  },
+  {
+    "CategoryName": "Snacks",
+    "name": "Paneer Tikka",
+    "img": "https://images.unsplash.com/photo-1631515242809-ace64a9b7242",
+    "options": [
+      {
+        "small": "120",
+        "medium": "160",
+        "full": "200"
+      }
+    ],
+    "description": "Grilled paneer cubes marinated in yogurt and spices"
+  },
+  {
+    "CategoryName": "Chinese",
+    "name": "Veg Hakka Noodles",
+    "img": "https://images.unsplash.com/photo-1604909052743-94e83840de92",
+    "options": [
+      {
+        "small": "90",
+        "medium": "120",
+        "full": "150"
+      }
+    ],
+    "description": "Stir-fried noodles tossed with vegetables"
+  },
+  {
+    "CategoryName": "Chinese",
+    "name": "Veg Manchurian",
+    "img": "https://images.unsplash.com/photo-1603899122357-0e32f8705e04",
+    "options": [
+      {
+        "small": "100",
+        "medium": "140",
+        "full": "180"
+      }
+    ],
+    "description": "Crispy vegetable balls cooked in tangy Manchurian gravy"
+  },
+  {
+    "CategoryName": "Dessert",
+    "name": "Chocolate Brownie",
+    "img": "https://images.unsplash.com/photo-1589712235273-5e98d2d52d58",
+    "options": [
+      {
+        "small": "60",
+        "medium": "90",
+        "full": "130"
+      }
+    ],
+    "description": "Warm chocolate brownie topped with syrup"
+  },
+  {
+    "CategoryName": "Dessert",
+    "name": "Gulab Jamun",
+    "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+    "options": [
+      {
+        "small": "40",
+        "medium": "70",
+        "full": "100"
+      }
+    ],
+    "description": "Soft sweet dumplings soaked in sugar syrup"
+  }
+]
