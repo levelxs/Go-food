@@ -22,7 +22,7 @@ const reducer = (state, action) => {
                     : food
             );
         case 'DROP':
-            let empArry=[]
+            let empArry = []
             return empArry
         default:
             console.log('error in reducer');
@@ -31,7 +31,7 @@ const reducer = (state, action) => {
 
 export const CartProvider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, []);
-console.log("CONTEXT — Provider Loaded");
+    console.log("CONTEXT — Provider Loaded");
 
     return (
         <CartDispatchContext.Provider value={dispatch}>

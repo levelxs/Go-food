@@ -17,7 +17,7 @@ const Cart = () => {
     let userEmail = localStorage.getItem("userEmail");
     console.log("Sending Email:", userEmail);     // 👈 Add here
     console.log("Sending Order Data:", data);
-    let response = await fetch("http://localhost:5000/api/orderData", {
+    let response = await fetch("https://go-food-backend-2.onrender.com/api/orderData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',

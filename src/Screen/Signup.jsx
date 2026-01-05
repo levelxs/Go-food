@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink,useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import axios from 'axios'
 
@@ -14,7 +14,7 @@ const Signup = () => {
     const submitHandler = async (e) => {
         e.preventDefault()
         try {
-            await axios.post('http://localhost:5000/api/createUser', data)
+            await axios.post('https://go-food-backend-2.onrender.com/api/createUser', data)
             alert('User successfully signed up.')
 
             setData({ name: '', email: '', password: '', location: '' })
@@ -29,7 +29,7 @@ const Signup = () => {
     return (
         <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
             <div className="card shadow p-4" style={{ width: "28rem", borderRadius: "12px" }}>
-                
+
                 <h3 className="text-center mb-1 fw-bold">Create Account</h3>
                 <p className="text-center text-muted mb-4">Join us by creating your new account</p>
 

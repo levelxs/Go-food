@@ -20,7 +20,7 @@ const AddFood = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const response = await fetch("http://localhost:5000/api/add-food", {
+        const response = await fetch("https://go-food-backend-2.onrender.com/api/add-food", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

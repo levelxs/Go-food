@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer className="bg-dark text-light pt-4 pb-3 mt-5">
         <div className="container d-flex flex-wrap justify-content-between align-items-center">
-          
+
           {/* Left Section */}
           <div className="col-md-4 d-flex align-items-center">
             <NavLink

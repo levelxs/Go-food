@@ -15,7 +15,7 @@ const Login = () => {
     const submitHandler = async (e) => {
         e.preventDefault()
         try {
-            const response = await axios.post('http://localhost:5000/api/loginUser', data)
+            const response = await axios.post('https://go-food-backend-2.onrender.com/api/loginUser', data)
             alert('User successfully logged in.')
 
             setData({ email: '', password: '' })
@@ -34,7 +34,7 @@ const Login = () => {
     return (
         <div className="d-flex justify-content-center align-items-center vh-100 bg-light ">
             <div className="card shadow p-4" style={{ width: "25rem", borderRadius: "12px" }}>
-                
+
                 <h3 className="text-center mb-1 fw-bold">Welcome Back</h3>
                 <p className="text-center text-muted mb-4">Login to continue</p>
 
@@ -43,8 +43,8 @@ const Login = () => {
                     {/* Email */}
                     <div className="mb-3">
                         <label className="form-label">Email address</label>
-                        <input 
-                            type="email" 
+                        <input
+                            type="email"
                             className="form-control"
                             name="email"
                             value={data.email}
@@ -56,8 +56,8 @@ const Login = () => {
                     {/* Password */}
                     <div className="mb-3">
                         <label className="form-label">Password</label>
-                        <input 
-                            type="password" 
+                        <input
+                            type="password"
                             className="form-control"
                             name="password"
                             value={data.password}
