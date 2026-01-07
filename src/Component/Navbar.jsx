@@ -44,9 +44,9 @@ const Navbar = () => {
                 </li> : ''
               }
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link active fs-5" aria-current="page" to="/addfood">Admin</NavLink>
-              </li> : ''
+              </li> */}
 
             </ul>
 
